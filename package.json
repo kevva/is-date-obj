@@ -1,0 +1,33 @@
+{
+  "name": "is-date-obj",
+  "version": "0.0.0",
+  "description": "My incredible module",
+  "license": "MIT",
+  "repository": "kevva/is-date-obj",
+  "author": {
+    "name": "Kevin Martensson",
+    "email": "kevinmartensson@gmail.com",
+    "url": "github.com/kevva"
+  },
+  "engines": {
+    "node": ">=4"
+  },
+  "scripts": {
+    "test": "xo && ava"
+  },
+  "files": [
+    "index.js"
+  ],
+  "keywords": [
+    "check",
+    "date",
+    "object"
+  ],
+  "devDependencies": {
+    "ava": "^0.15.2",
+    "xo": "^0.16.0"
+  },
+  "xo": {
+    "esnext": true
+  }
+}
